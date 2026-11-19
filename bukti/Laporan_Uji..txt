@@ -1,0 +1,13 @@
+Uji	Masukan / tindakan	Hasil yang diharapkan	Hasil aktual	Status (Lulus/Belum)
+0	Menjalankan aplikasi pertama kali	2 baris awal, 3 kolom		
+1	BRG-003, Kabel HDMI, 12 → Tambah Demo	3 baris, input kosong, status berhasil		
+2	Isi sembarang → Bersihkan Input	Input kosong, tabel tetap 3 baris		
+3	Kode kosong → Tambah Demo	Dialog "wajib diisi", tetap 3 baris		
+4	Jumlah abc → Tambah Demo	Dialog "Input jumlah", tetap 3 baris		
+5	Jumlah -1 (minus satu) → Tambah Demo	Dialog "tidak boleh negatif", tetap 3 baris		
+6	Kode/nama dengan spasi tepi, jumlah 0	4 baris, spasi dibuang, nol diterima		
+7a	Jumlah 2147483648	Dialog "Input jumlah", tetap 4 baris		
+7b	Jumlah 1.5	Dialog "Input jumlah", tetap 4 baris		
+8a	Klik dua kali sel tabel	Sel tidak dapat diketik		
+8b	Klik Tutup	Jendela tertutup		
+8c	Run ulang	Kembali 2 baris awal		
